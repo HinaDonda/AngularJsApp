@@ -1,10 +1,9 @@
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
-  'ngAnimate',
+// Define the `angularJsApp` module
+angular.module('angularJsApp', [
+  'oc.lazyLoad',
+  'ui.bootstrap', 
+  'ui.router',
   'ngRoute',
-  'core',
-  'phoneDetail',
-  'phoneList'
 ]);
